@@ -2,7 +2,7 @@
   "key": "rw-checklist",
   "name": "RW Checkist",
   "description": "Checkist for an issue.",
-  "baseUrl": "https://checklist.labs.railsware.com",
+  "baseUrl": "https://railsware.github.io",
   "vendor": {
     "name": "Railsware",
     "url": "http://railsware.com"
@@ -18,7 +18,7 @@
     "webPanels": [
       {
         "location": "atl.jira.view.issue.right.context",
-        "url": "/",
+        "url": "/jira-checklists/index.html",
         "key": "rw-checklist-issue-panel",
         "name": {
           "value": "Checklists"
