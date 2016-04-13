@@ -1,7 +1,7 @@
 {
-  "key": "rw-checklist",
-  "name": "RW Checkist",
-  "description": "Checkist for an issue.",
+  "key": "rw-smart-checklists",
+  "name": "Smart Checkists",
+  "description": "Checkists for an issue.",
   "baseUrl": "https://railsware.github.io",
   "vendor": {
     "name": "Railsware",
