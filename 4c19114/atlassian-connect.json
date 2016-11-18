@@ -17,7 +17,7 @@
     "webPanels": [
       {
         "location": "atl.jira.view.issue.right.context",
-        "url": "/jira-checklists/index.html",
+        "url": "/jira-checklists/4c19114/index.html",
         "key": "rw-checklist-issue-panel",
         "name": {
           "value": "Checklists"
