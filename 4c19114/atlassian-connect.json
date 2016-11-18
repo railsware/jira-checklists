@@ -1,0 +1,29 @@
+{
+  "key": "rw-smart-checklists",
+  "name": "Smart Checkists",
+  "description": "Checkists for an issue.",
+  "baseUrl": "https://railsware.github.io",
+  "vendor": {
+    "name": "Railsware",
+    "url": "http://railsware.com"
+  },
+  "authentication": {
+    "type": "none"
+  },
+  "links": {
+    "documentation": "http://railsware.com"
+  },
+  "modules": {
+    "webPanels": [
+      {
+        "location": "atl.jira.view.issue.right.context",
+        "url": "/jira-checklists/index.html",
+        "key": "rw-checklist-issue-panel",
+        "name": {
+          "value": "Checklists"
+        }
+      }
+    ]
+  },
+  "scopes": [ "read", "write" ]
+}
