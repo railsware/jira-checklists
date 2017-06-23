@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ace/1.2.5/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script src="editor.js"></script>
+</head>
+<body>
+  <div id="editor" class="editor"></div>
+
+  <div class="header">
+    <div class="header__items-wrapper">
+      <div class="header__items">
+        <div class="header__item buttons-container help">
+          Need Help? Check <a id="help" href="https://railsware.atlassian.net/wiki/display/CHK/Formatting+Guide" target="_blank">Formatting Guide</a>
+        </div>
+        <div class="header__item header__item--position-middle" id="hints">
+          <ul class="hint">
+            <li class="hint__item"><span class="hint__item-subject">#</span> header</li>
+            <li class="hint__item"><span class="hint__item-subject">-</span> todo</li>
+            <li class="hint__item"><span class="hint__item-subject">+</span> done</li>
+            <li class="hint__item"><span class="hint__item-subject">~</span> in progress</li>
+            <li class="hint__item"><span class="hint__item-subject">x</span> cancelled</li>
+            <li class="hint__item"><strong>**bold text**</strong></li>
+            <li class="hint__item"><i>_italic text_</i></li>
+          </ul>
+        </div>
+        <div class="header__item header__item--position-right" id="feedback-wrapper" style="display:none;">
+          We are young product. <a href="#" id="feedback">Please provide us your feedback </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div id="reference-wrapper" class="reference" style="display:none;">
+      Crafted by <a href="http://railsware.com/case-studies/" target="_blank" class="logo reference__logo"></a>
+    </div>
+
+    <div class="footer__buttons">
+      <button class="aui-button aui-button-primary" id="submit">Save</button>
+      <a class="cancel" id="cancel">Cancel</a>
+    </div>
+  </div>
+
+</body>
+</html>
